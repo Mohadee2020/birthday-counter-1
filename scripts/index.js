@@ -4,8 +4,8 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'Jan 29, 2020',
-  name: 'Darlene'
+  birthdate: 'Aug 5, 2025',
+  name: 'Widian'
 };
 
 function hideEverything() {
@@ -48,7 +48,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
+      strings: ['¡¡¡FELIZ', 'CUMPLEAÑOS!!!', config.name],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
@@ -496,6 +496,6 @@ x = setInterval(function() {
 
   // if (distance < 0) {
   //     clearInterval(x);
-  //     console.log("happy birthday");
+  //     console.log("Feliz cumpleaños");
   // }
 }, second);
