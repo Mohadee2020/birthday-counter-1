@@ -5,7 +5,7 @@ const canvasC = document.getElementById('c');
 
 const config = {
   birthdate: 'Jan 29, 2020',
-  name: 'Darlene'
+  name: 'Widian'
 };
 
 function hideEverything() {
@@ -48,7 +48,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
+      strings: ['¡¡¡FELICIDADES', 'AMOR!!!', config.name],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
@@ -462,8 +462,8 @@ x = setInterval(function() {
     let stepMinutes = [2000, 2000, 1000, 1000];
 
     function init() {
-      box.addEventListener('click', openBox, false);
-      box.addEventListener('click', showfireworks, false);
+      box.addEventListener('Pulsa', openBox, false);
+      box.addEventListener('Pulsa', showfireworks, false);
     }
 
     function stepClass(step) {
@@ -473,7 +473,7 @@ x = setInterval(function() {
 
     function openBox() {
       if (step === 1) {
-        box.removeEventListener('click', openBox, false);
+        box.removeEventListener('Pulsa', openBox, false);
       }
       stepClass(step);
       if (step === 3) {
@@ -496,6 +496,6 @@ x = setInterval(function() {
 
   // if (distance < 0) {
   //     clearInterval(x);
-  //     console.log("happy birthday");
+  //     console.log("FELICIDADES AMOR");
   // }
 }, second);
